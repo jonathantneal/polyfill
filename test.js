@@ -2,20 +2,17 @@
 	'use strict';
 
 	var
-	Array = window.Array,
-	array = new Array(),
-	Date = window.Date,
-	date = new Date(),
-	Object = window.Object,
-	string = new String(),
+	array = [],
+	Date = Date,
+	Object = Object,
 	textarea = document.createElement('textarea'),
 	key;
 
 	var supported = {
 		// Object
-		Object_create: 'create' in Object || ('onpropertychange' in textarea),
+		Object_create: 'create' in Object || 'onpropertychange' in textarea,
 		Object_create_ie7: 'create' in Object || !('onpropertychange' in textarea),
-		Object_defineProperty: 'defineProperty' in Object || ('onpropertychange' in textarea),
+		Object_defineProperty: 'defineProperty' in Object || 'onpropertychange' in textarea,
 		Object_defineProperty_ie7: 'defineProperty' in Object || !('onpropertychange' in textarea),
 		Object_defineProperties: 'defineProperties' in Object,
 		Object_getOwnPropertyNames: 'getOwnPropertyNames' in Object,
@@ -40,10 +37,10 @@
 
 		// Date
 		Date_now: 'now' in Date,
-		Date__toISOString: 'toISOString' in date,
+		Date__toISOString: 'toISOString' in new Date(),
 
 		// String
-		String__trim: 'trim' in string,
+		String__trim: 'trim' in '',
 
 		// Window
 		Window__base64: 'atob' in window,
@@ -80,5 +77,5 @@
 		}
 	}
 
-	document.write('<' + 'script src="//polyfill.io/?' + array.join() + '"></script>')
+	document.write('<' + 'script src="//polyfill.io/?' + array.join() + '"></script>');
 })(this);
