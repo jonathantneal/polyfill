@@ -103,7 +103,7 @@ Default HTML5 element styling is covered too, with [the experimental .css query]
 * [Window.prototype.matchMedia](https://developer.mozilla.org/en-US/docs/Web/API/window.matchMedia)
 * [Window.prototype.matchMedia.addListener](https://developer.mozilla.org/en-US/docs/Web/API/MediaQueryList#Methods)
 * [Window.prototype.matchMedia.addListener](https://developer.mozilla.org/en-US/docs/Web/API/MediaQueryList#Methods)
-* [Navigator.prototype.geolocation](http://caniuse.com/geolocation)
+* [navigator.geolocation](http://caniuse.com/geolocation)
 * [Element.prototype.classList](http://caniuse.com/classList)
 * [Element.prototype.hasAttribute](https://developer.mozilla.org/en-US/docs/Web/API/element.hasAttribute)
 * [Element.prototype.placeholder](http://caniuse.com/input-placeholder)

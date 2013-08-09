@@ -53,8 +53,8 @@
 		Window__matchMedia: 'matchMedia' in window,
 		Window__viewport: true,
 
-		// Geolocation
-		Navigator__geolocation: 'geolocation' in navigator,
+		// navigator
+		navigator_geolocation: 'geolocation' in navigator,
 
 		// HTMLDocument
 		HTMLDocument__head: 'head' in document,
