@@ -71,7 +71,7 @@
 		Element__matches_webkit: 'matches' in textarea || !('webkitMatchesSelector' in textarea),
 		Element__mutation: 'after' in textarea || 'remove' in textarea,
 		Element__mutation_blink: 'after' in textarea || !('remove' in textarea),
-		Element__placeholder: 'placeholder' in document.createElement('textarea')
+		Element__placeholder: 'placeholder' in textarea
 	};
 
 	for (key in supported) {
