@@ -1,0 +1,10 @@
+{
+	"browsers": {
+		"ie": "6 - 8",
+		"firefox": "3.6",
+		"safari": "4 - 5.1"
+	},
+	"aliases": [
+		"modernizr:es5function"
+	]
+}

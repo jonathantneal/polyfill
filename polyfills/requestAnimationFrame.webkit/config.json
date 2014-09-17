@@ -1,0 +1,10 @@
+{
+	"browsers": {
+		"chrome": "10 - 23",
+		"safari": "6"
+	},
+	"aliases": [
+		"modernizr:requestanimationframe",
+		"caniuse:requestanimationframe"
+	]
+}

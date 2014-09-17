@@ -1,22 +1,45 @@
 {
-  "name": "polyfill",
+  "name": "polyfill-service",
   "description": "A polyfill combinator",
-  "version": "1.0.0",
-  "author": {
-    "name": "Jonathan Neal",
-    "email": "jonathantneal+github@gmail.com",
-    "url": "http://jonathantneal.com/"
-  },
+  "version": "0.0.1",
+  "contributors": [
+    {
+      "name": "Jonathan Neal",
+      "email": "jonathantneal+github@gmail.com",
+      "url": "http://jonathantneal.com/"
+    },
+    {
+      "name": "FT Labs",
+      "email": "enquiries@labs.ft.com",
+      "url": "http://labs.ft.com"
+    }
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/jonathantneal/polyfill"
+    "url": "https://github.com/financial-times/polyfill-service.git"
   },
   "bugs": {
-    "url": "https://github.com/jonathantneal/polyfill/issues"
+    "url": "https://github.com/financial-times/polyfill-service/issues"
+  },
+  "scripts": {
+    "test": "mocha --recursive",
+    "start": "forever  service/index.js",
+    "restart": "forever restart service/index.js",
+    "stop": "forever stop service/index.js",
+    "status": "forever list | grep -q service/index.js"
   },
   "license": "CC0 1.0 Universal License",
+  "dependencies": {
+    "caniuse-db": "1.0.20140710",
+    "express": "^4.4.4",
+    "forever": "^0.11.1",
+    "semver": "^2.3.1",
+    "uglify-js": "^2.4.14",
+    "useragent": "^2.0.8",
+    "tsort": "0.0.1",
+    "minimist": "^0.2.0"
+  },
   "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-uglify": "~0.2.4"
+    "mocha": "^1.20.1"
   }
 }
