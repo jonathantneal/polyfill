@@ -1,0 +1,13 @@
+{
+	"aliases": [
+		"default"
+	],
+	"browsers": {
+		"ie": "8"
+	},
+	"dependencies": [
+		"Object.defineProperty",
+		"HTMLDocument",
+		"HTMLElement"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"aliases": [
+		"default"
+	],
+	"browsers": {
+		"ie": "7"
+	},
+	"dependencies": [
+		"Window.polyfill"
+	]
+}

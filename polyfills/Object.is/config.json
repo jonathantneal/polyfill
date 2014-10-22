@@ -1,0 +1,17 @@
+{
+	"browsers": {
+		"android": "*",
+		"bb": "*",
+		"chrome": "1 - 29",
+		"firefox": "3.6 - 21",
+		"ie": "*",
+		"opera": "*",
+		"op_mini": "*",
+		"op_mob": "*",
+		"safari": "*",
+		"ios_saf": "*"
+	},
+	"aliases": [
+		"modernizr:es6object"
+	]
+}
