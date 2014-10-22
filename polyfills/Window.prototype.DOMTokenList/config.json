@@ -1,0 +1,11 @@
+{
+	"browsers": {
+		"ie": "6 - 9",
+		"safari": "4"
+	},
+	"dependencies": [
+		"Array.prototype.indexOf",
+		"Window",
+		"Window.chrome"
+	]
+}

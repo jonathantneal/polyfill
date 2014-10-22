@@ -1,0 +1,15 @@
+{
+	"browsers": {
+		"ie": "8"
+	},
+	"dependencies": ["Object.defineProperties"],
+
+	"variants": {
+		"ie7": {
+			"browsers": {
+				"ie": "6 - 7"
+			},
+			"dependencies": ["Window"]
+		}
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"browsers": {
+		"ie": "6 - 8"
+	},
+	"dependencies": [
+		"Window",
+		"HTMLDocument",
+		"HTMLElement"
+	]
+}
