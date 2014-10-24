@@ -1,0 +1,11 @@
+{
+	"aliases": [
+		"modernizr:es6array",
+		"es6"
+	],
+	"browsers": {
+		"chrome": "*",
+		"firefox": "4 - *",
+		"ie": "6 - *"
+	}
+}

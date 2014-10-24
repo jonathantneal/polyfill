@@ -1,0 +1,9 @@
+{
+	"browsers": {
+		"ie": "6 - 9",
+		"safari": "4"
+	},
+	"dependencies": [
+		"Window"
+	]
+}
