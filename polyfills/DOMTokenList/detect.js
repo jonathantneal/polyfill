@@ -1,0 +1,1 @@
+'DOMTokenList' in window

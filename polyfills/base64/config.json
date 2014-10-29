@@ -1,0 +1,13 @@
+{
+	"aliases": [
+		"caniuse:datauri"
+	],
+	"browsers": {
+		"ie": "6 - 9"
+	},
+	"dependencies": [
+		"Window"
+	],
+	"license": "MIT",
+	"author": "David Lindquist (http://www.webtoolkit.info/javascript-base64.html), Andrew Dodson (drew81.com)"
+}

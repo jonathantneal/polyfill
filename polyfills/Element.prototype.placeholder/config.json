@@ -1,0 +1,14 @@
+{
+	"aliases": [
+		"modernizr:placeholder",
+		"caniuse:input-placeholder"
+	],
+	"browsers": {
+		"ie": "8"
+	},
+	"dependencies": [
+		"Object.defineProperty",
+		"document.querySelector",
+		"Element"
+	]
+}
