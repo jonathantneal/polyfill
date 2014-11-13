@@ -1,0 +1,1 @@
+'closest' in document.documentElement

@@ -1,0 +1,1 @@
+'matches' in document.documentElement

@@ -1,0 +1,24 @@
+{
+	"aliases": [
+		"es6"
+	],
+	"browsers": {
+		"android": "*",
+		"bb": "*",
+		"chrome": "1 - 37",
+		"firefox": "1 - 24",
+		"ios_chr": "*",
+		"ios_saf": "*",
+		"opera": "10 - 20",
+		"op_mob": "*",
+		"op_mini": "*"
+	},
+	"variants": {
+		"plus": {
+			"browsers": {
+				"ie": "*",
+				"safari": "*"
+			}
+		}
+	}
+}

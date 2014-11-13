@@ -1,0 +1,18 @@
+{
+	"aliases": [
+		"es6",
+		"modernizr:es6object"
+	],
+	"browsers": {
+		"android": "*",
+		"bb": "*",
+		"chrome": "1 - 29",
+		"firefox": "3.6 - 21",
+		"ie": "*",
+		"opera": "*",
+		"op_mini": "*",
+		"op_mob": "*",
+		"safari": "*",
+		"ios_saf": "*"
+	}
+}
