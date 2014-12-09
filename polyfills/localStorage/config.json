@@ -1,0 +1,12 @@
+{
+	"aliases": [
+		"caniuse:namevalue-storage",
+		"modernizr:localstorage"
+	],
+	"browsers": {
+		"ie": "6 - 7"
+	},
+	"dependencies": [
+		"Window"
+	]
+}

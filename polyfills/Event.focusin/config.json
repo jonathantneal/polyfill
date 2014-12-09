@@ -1,0 +1,11 @@
+{
+	"aliases": [
+		"default"
+	],
+	"browsers": {
+		"firefox": "6 - *"
+	},
+	"dependencies": [
+		"Event"
+	]
+}

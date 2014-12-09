@@ -1,0 +1,21 @@
+{
+	"aliases": [
+		"modernizr:promises",
+		"caniuse:promises"
+	],
+	"browsers": {
+		"android": "* - 4.4",
+		"bb": "* - 10",
+		"chrome": "* - 31",
+		"firefox": "* - 28",
+		"ie": "*",
+		"ie_mob": "* - 10",
+		"ios_saf": "* - 7.1",
+		"op_mini": "*",
+		"opera": "* - 19",
+		"safari": "* - 7"
+	},
+	"dependencies": [
+		"Object.defineProperty"
+	]
+}
